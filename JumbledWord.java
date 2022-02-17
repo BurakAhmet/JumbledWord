@@ -6,7 +6,7 @@ public class JumbledWord {
 	public static void main(String[] args) {
 
 		System.out.print("Shuffled letters: ");
-		File file = new File("C:\\Users\\ahmet\\eclipse-workspace\\Files\\input.txt");// to reading file
+		File file = new File(/*PASTE THE İNPUT PATH HERE*/);// to reading file
 		String data = "";
 		try {
 			Scanner sc = new Scanner(file);
